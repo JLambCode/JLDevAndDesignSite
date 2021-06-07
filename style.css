@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/*
+Breakpoint Guide
+xs devices (portrait view on phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+sm devices (landscape view on phones, 576px and up)
+@media (min-width: 576px) {...}
+
+md devices (tablets, 768px and up)
+@media (min-width: 768px) {...}
+
+lg devices (desktops, 992px and up)
+@media (min-width: 992px) {...}
+
+xl devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {...}
+*/
