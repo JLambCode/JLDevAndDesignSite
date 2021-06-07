@@ -73,6 +73,14 @@ a:hover {
   background-color: rgba(12, 32, 59, 0.5);
 }
 
+.navbar .navbar-brand a {
+  padding: 1 rem 0;
+  display: block;
+  text-decoration: none;
+  font-size: 2.2rem;
+  color: white;
+}
+
 /*
 Breakpoint Guide
 xs devices (portrait view on phones, less than 576px)
