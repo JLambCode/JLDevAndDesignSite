@@ -119,6 +119,14 @@ a:hover {
   color: #00ff0d;
 }
 
+.dropdown-menu {
+  background-color: #00ff0d;
+}
+
+.dropdown-item {
+  color: rgb(12, 32, 59);
+}
+
 .btn {
   color: white;
   background-color: #00ff0d;
