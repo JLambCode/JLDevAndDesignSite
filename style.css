@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #b1b4bd;
+  color: #ffffff;
   font-weight: 5000;
 }
 
@@ -23,8 +23,7 @@ a:hover {
   color: rgb(0, 255, 128);
 }
 
-.sticky-nav {
-  position: sticky;
+.fixed-top {
   position: -webkit-sticky;
   top: 0px;
   padding: 20px;
@@ -57,9 +56,6 @@ a:hover {
   border: none;
   padding: 10px 6px;
   outline: none;
-}
-
-.navbar-toggler:focused {
 }
 
 .navbar-toggler span {
@@ -141,7 +137,7 @@ a:hover {
   line-height: 1.4;
   text-align: center;
   color: rgb(0, 0, 0);
-  margin-top: 80px;
+  margin-top: 200px;
   margin-bottom: 80px;
   min-height: 80px;
 }
