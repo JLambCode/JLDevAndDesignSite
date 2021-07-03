@@ -166,6 +166,11 @@ a:hover {
   font-weight: 500;
 }
 
+.carousel {
+  margin-top: 80px;
+  padding: 5rem 2rem 0rem 5rem;
+}
+
 /*
 Breakpoint Guide
 xs devices (portrait view on phones, less than 576px)
