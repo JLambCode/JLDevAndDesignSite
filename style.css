@@ -10,8 +10,8 @@ body {
   font-size: 18px;
   font-family: "Poppins";
   line-height: 20px;
-  color: #b1b4bd;
-  background-color: #323a45;
+  color: #000000;
+  background-color: #ffffff;
 }
 
 a {
@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #00ff0d;
+  color: rgb(0, 255, 128);
 }
 
 .sticky-nav {
@@ -37,7 +37,7 @@ a:hover {
   -webkit-order: 0;
   -ms-flex-order: 0;
   order: 0;
-  background-color: rgba(12, 32, 59, 0.5);
+  background-color: rgba(24, 21, 71, 0.75);
 }
 
 .navbar .navbar-brand a {
@@ -59,21 +59,49 @@ a:hover {
   outline: none;
 }
 
+.navbar-toggler:focused {
+}
+
 .navbar-toggler span {
   display: block;
-  width: 22px;
-  height: 2px;
-  border: 1px;
+  width: 25px;
+  height: 3px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   background: #fff;
+  position: relative;
+  left: 0;
+  opacity: 1;
+  transition: all 0.35s ease-out;
+  transform-origin: center left;
 }
 
-.navbar-toggler span + span {
-  margin-top: 4px;
-  width: 22px;
+.navbar-toggler span:nth-child(1) {
+  margin-top: 0.3em;
 }
 
-.navbar-toggler span + span + span {
-  width: 22px;
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+  transform: translate(15%, -33%) rotate(45deg);
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+  transform: translate(15%, 33%) rotate(-45deg);
+}
+
+.navbar-toggler span:nth-child(1) {
+  transform: translate(0%, 0%) rotate(0deg);
+}
+
+.navbar-toggler span:nth-child(2) {
+  opacity: 1;
+}
+
+.navbar-toggler span:nth-child(3) {
+  transform: translate(0%, 0%) rotate(0deg);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -83,11 +111,11 @@ a:hover {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.active {
-  color: #00ff0d;
+  color: rgb(0, 255, 128);
 }
 
 .dropdown-menu {
-  background-color: #00ff0d;
+  background-color: rgb(0, 255, 128);
 }
 
 .dropdown-item {
@@ -96,15 +124,15 @@ a:hover {
 
 .btn {
   color: white;
-  background-color: #00ff0d;
+  background-color: #c700ac;
   border-radius: 10px;
   padding: 1rem 1.5rem;
   font-size: 1.2rem;
 }
 
 .btn:hover {
-  color: #fff;
-  background-color: rgb(0, 195, 255);
+  color: rgb(94, 94, 94);
+  background-color: rgb(0, 255, 128);
 }
 
 .heading {
@@ -112,7 +140,7 @@ a:hover {
   font-weight: bold;
   line-height: 1.4;
   text-align: center;
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin-top: 80px;
   margin-bottom: 80px;
   min-height: 80px;
@@ -130,7 +158,7 @@ a:hover {
   margin-top: 80px;
   padding: 5rem 2rem 0rem 5rem;
   font-size: 2.8rem;
-  color: #b1b4bd;
+  color: #000000;
   font-weight: 500;
 }
 
@@ -138,7 +166,7 @@ a:hover {
   margin-top: 15;
   padding: 1rem 5rem 1rem 5rem;
   font-size: 1.1rem;
-  color: #b1b4bd;
+  color: #000000;
   font-weight: 500;
 }
 
