@@ -23,13 +23,13 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <div>
+  <body data-bs-spy="scroll" data-bs-target="#nav">
     <!--Navigation-->
     <header class="header-background">
       <div id="nav" class="navbar">
         <nav class="navbar fixed-top navbar-expand-lg">
           <div class="container">
-            <a class="navbar-brand" href="#"
+            <a class="navbar-brand" href="#nav"
               ><img src="assets/img/JLambCodeLogo.png" alt=""
             /></a>
             <button
@@ -48,43 +48,25 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="#nav"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Graphics</a>
+                  <a class="nav-link" href="#graphics">Graphics</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Web</a>
+                  <a class="nav-link" href="#web">Web</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Software</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                    href="#"
-                    >Blog</a
-                  >
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Ironlands</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">SHROOM</a>
-                    </li>
-                  </ul>
+                  <a class="nav-link" href="#software">Software</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#about">About</a>
                 </li>
               </ul>
               <form class="d-flex">
-                <button class="btn" type="submit">Contact</button>
+                <button class="btn" type="submit" href="#contact">Contact</button>
               </form>
             </div>
           </div>
@@ -92,8 +74,8 @@
       </div>
     </header>
 
-    <div class="container-fluid">
-      <h1 class="heading">Hi, I'm Jeremy, a Freelance Graphic Designer and Software Developer.</h1>
+    <div class="container-fluid" id="home">
+      <h1 class="heading">Hi, I'm Jeremy, a Freelance Graphic Designer and Web/Software Developer.</h1>
     </div>
 
     <div class="container-fluid" id="graphics">
@@ -102,7 +84,7 @@
           <h1 class="section-title">Graphic Design</h1>
           <p class="paragraph">
             I have many years of combined experience with creating logos, screenprint designs, promotional graphics and more.
-            I also paint and draw, both digitally and traditionally. 
+            I also paint and draw, both digitally and traditionally.
             I implement the user experience design process and understand its important role in creating a visual narrative.
           </p>
         </div>
@@ -145,34 +127,6 @@
             I am the complete solution for your website needs with experience in UI/UX Design and Graphic Design.
           </p>
         </div>
-        <div class="col-xs-12 col-sm-6 col-lg-6 column-left">
-          <div id="webDesignCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#webDesignCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#webDesignCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#webDesignCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="..." class="d-block w-200" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-200" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-200" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#webDesignCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#webDesignCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
       </div>
     </div>
 
@@ -184,113 +138,6 @@
             I have a B.S. in Software Engineering and experience in mobile application development and solutions delivery. 
           </p>
         </div>
-        <div class="col-xs-12 col-sm-6 col-lg-6 column-right">
-          <div id="softwareCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#softwareCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#softwareCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#softwareCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#softwareCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#softwareCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid" id="blog">
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-lg-6 column-middle">
-          <h1 class="section-title">Blog</h1>
-          <p class="paragraph"></p>
-        </div>
-
-        <div class="row" id="ironlands">
-          <div class="col-xs-12 col-sm-6 col-lg-6 column-left">
-            <h2 class="section-title">Ironlands</h2>
-            <p class="paragraph"></p>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-lg-6 column-right">
-            <div id="ironlandsCarousel" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#ironlandsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#ironlandsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#ironlandsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="..." class="d-block w-100" alt="...">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#ironlandsCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#ironlandsCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="row" id="shroom">
-          <div class="col-xs-12 col-sm-6 col-lg-6 column-left">
-            <h2 class="section-title">SHROOM</h2>
-            <p class="paragraph"></p>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-lg-6 column-right">
-            <div id="shroomCarousel" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#shroomCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#shroomCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#shroomCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="..." class="d-block w-100" alt="...">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#shroomCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#shroomCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
 
@@ -299,14 +146,9 @@
         <div class="col-xs-12 col-sm-6 col-lg-6 column-left">
           <h1 class="section-title">About</h1>
           <p class="paragraph">
-            Hi, my name is Jeremy and I like to build things. I received my
-            Bachelors of Science in Software Engineering in arguably the most
-            chaotic time of my generation, in the year 2020. In between my dayjobs,
-            I've built this website and for several reasons. Notably to advertise my
-            skills and offer my services but also to have a place to put things. A
-            place where you can visit and see my progress...or lack thereof on
-            passion projects. A place where I may someday have something interesting
-            to say. Until then, enjoy your stay.
+            Hi, my name is Jeremy Lamb and I like to build things. I received my
+            Bachelor of Science in Software Engineering in November of 2020. In between my dayjobs,
+            I've built this website to advertise my skills and offer my services.
           </p>
         </div>
       </div>
