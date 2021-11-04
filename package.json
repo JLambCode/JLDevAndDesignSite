@@ -1,0 +1,19 @@
+{
+  "name": "jldevanddesignsite",
+  "version": "1.0.0",
+  "description": "JL Dev and Design Site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JLambCode/JLDevAndDesignSite.git"
+  },
+  "author": "Jeremy Lamb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JLambCode/JLDevAndDesignSite/issues"
+  },
+  "homepage": "https://github.com/JLambCode/JLDevAndDesignSite#readme"
+}
