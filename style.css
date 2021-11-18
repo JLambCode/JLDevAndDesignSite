@@ -11,7 +11,7 @@ body {
   font-family: "Poppins";
   line-height: 20px;
   color: #000000;
-  background-color: rgba(237, 227, 241);
+  background-color: rgb(255, 255, 255);
 }
 
 a {
@@ -37,7 +37,7 @@ a:hover {
   -webkit-order: 0;
   -ms-flex-order: 0;
   order: 0;
-  background-color: rgba(237, 227, 241, 0.75);
+  background-color: rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(5px);
 }
 
