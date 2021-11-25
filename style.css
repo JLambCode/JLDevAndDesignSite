@@ -203,6 +203,10 @@ a:hover {
   padding: 5rem 2rem 0rem 5rem;
 }
 
+#about {
+  background-color: #00000050;
+}
+
 /*
 Breakpoint Guide
 xs devices (portrait view on phones, less than 576px)
