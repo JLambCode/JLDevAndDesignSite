@@ -1,1 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="-13.2 -16.50405 114.4 99.0243"><path fill="#4285f4" d="M6 66.0162h14v-34l-20-15v43c0 3.315 2.685 6 6 6z"/><path fill="#34a853" d="M68 66.0162h14c3.315 0 6-2.685 6-6v-43l-20 15z"/><path fill="#fbbc04" d="M68 6.0162v26l20-15v-8c0-7.415-8.465-11.65-14.4-7.2z"/><path fill="#ea4335" d="M20 32.0162v-26l24 18 24-18v26l-24 18z"/><path fill="#c5221f" d="M0 9.0162v8l20 15v-26l-5.6-4.2c-5.935-4.45-14.4-.215-14.4 7.2z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2in" height="2in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2000 2000"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:#34A853;fill-rule:nonzero}
+    .fil0 {fill:#4285F4;fill-rule:nonzero}
+    .fil4 {fill:#C5221F;fill-rule:nonzero}
+    .fil3 {fill:#EA4335;fill-rule:nonzero}
+    .fil2 {fill:#FBBC04;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2352264060160">
+   <path class="fil0" d="M136.36 1750.19l318.19 0 0 -772.73 -454.55 -340.91 0 977.28c0,75.34 61.02,136.36 136.37,136.36l-0 0z"/>
+   <path class="fil1" d="M1545.45 1750.19l318.19 0c75.34,0 136.36,-61.02 136.36,-136.36l0 -977.28 -454.54 340.91 -0 772.73z"/>
+   <path class="fil2" d="M1545.45 386.55l0 590.91 454.55 -340.91 0 -181.82c0,-168.52 -192.39,-264.77 -327.27,-163.63l-127.28 95.45z"/>
+   <polygon class="fil3" points="454.55,977.46 454.55,386.55 1000,795.64 1545.45,386.55 1545.45,977.46 1000,1386.55 "/>
+   <path class="fil4" d="M-0 454.73l0 181.82 454.54 340.91 0 -590.91 -127.27 -95.45c-134.89,-101.14 -327.27,-4.89 -327.27,163.63z"/>
+  </g>
+ </g>
+</svg>
